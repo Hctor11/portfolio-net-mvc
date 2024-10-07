@@ -1,0 +1,86 @@
+# Compiled object files
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.log
+*.vspscc
+*.vssscc
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folders for tools
+.tool/
+
+# Rider project files
+.idea/
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directory
+.vscode/
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.pidb
+*.svd
+*.userprefs
+*.opendb
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# DotNetSonarQube
+.sonarqube/
+
+# VS Code workspace settings
+.vscode/
+
+# Visual Studio Code Coverage Results
+*.coverage
+*.coveragexml
+_coverage/*
+!.gitignore
+
+# NCrunch
+*.ncrunchsolution
+*.ncrunchproject
+
+# Others
+*.localhistory
+*.slnide
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Azure Web Apps logs
+azuredeploy.json
+**/azure-pipelines.yml
