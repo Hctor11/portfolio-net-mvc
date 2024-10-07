@@ -1,8 +1,9 @@
-﻿@{
+﻿@model Persona
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 style="font-weight: 600;" class="display-4">Hector Rivera</h1>
-    <h3 style="font-weight: 200;">Desarrollador Full Stack.</h3>
+    <h1 id="title" class="display-4">@Model.Name</h1>
+    <h3>Desarrollador Full Stack.</h3>
 </div>
