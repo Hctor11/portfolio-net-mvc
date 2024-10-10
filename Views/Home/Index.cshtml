@@ -1,9 +1,19 @@
 ﻿@model Persona
 @{
     ViewData["Title"] = "Home Page";
+
+    var nombres = new List<string>() {"Hector", "Claudia"};
 }
 
 <div class="text-center">
-    <h1 id="title" class="display-4">@Model.Name</h1>
+    <h1 id="title" class="display-4"> @Model.Name </h1>
     <h3>Desarrollador Full Stack.</h3>
+
+    <ul>
+        @foreach( var nombre in nombres){
+            <li>
+                @nombre
+            </li>
+        }
+    </ul>
 </div>
